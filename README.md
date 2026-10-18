@@ -16,9 +16,9 @@
 
 <br/>
 
-### [⬇️ LIHAT BUILD & DOWNLOAD APK](https://github.com/kuroziitamvan/studenthub-kurozi/actions/workflows/build-android.yml) · [🌐 COBA VERSI WEB](https://studenthub-kurozi.lovable.app)
+### [⬇️ DOWNLOAD STUDENTHUB APK v0.6.0](https://github.com/kuroziitamvan/Student-Hub/releases/download/v0.6.0/app-debug.apk) · [🌐 COBA VERSI WEB](https://studenthub-kurozi.lovable.app)
 
-<sub>APK saat ini tersedia melalui GitHub Actions sebagai build pengembangan (debug). Login GitHub mungkin diperlukan untuk mengunduh artifact. Belum ada APK rilis publik yang diunggah ke repository ini.</sub>
+<sub>APK v0.6.0 tersedia langsung di GitHub Releases. Ini masih build debug untuk pengujian.</sub>
 
 </div>
 
@@ -65,13 +65,12 @@ StudentHub menyatukan semuanya dalam satu pengalaman yang sederhana. Dibangun un
 ## Download & instalasi
 
 > [!IMPORTANT]
-> **Belum tersedia file APK publik di bagian Releases repository ini.** Untuk sementara, APK pengembangan ada pada artifact GitHub Actions repository aplikasi. Jangan mengunduh APK dari tautan pihak ketiga yang tidak dikenal.
+> **Download hanya dari GitHub Releases resmi StudentHub.** Versi ini adalah build debug untuk pengujian, belum rilis stabil.
 
-1. Buka **[StudentHub Android Builds](https://github.com/kuroziitamvan/studenthub-kurozi/actions/workflows/build-android.yml)**.
-2. Pilih workflow **Build StudentHub APK** terbaru dengan status **hijau**.
-3. Di bagian **Artifacts**, unduh **StudentHub-debug-apk** (login GitHub mungkin diperlukan).
-4. Ekstrak file ZIP, lalu instal **app-debug.apk** di Android.
-5. Buka StudentHub dan izinkan notifikasi jika ingin menggunakan fitur pengingat.
+1. Klik **[Download APK StudentHub v0.6.0](https://github.com/kuroziitamvan/Student-Hub/releases/download/v0.6.0/app-debug.apk)**.
+2. Buka file **app-debug.apk** yang sudah diunduh.
+3. Ikuti instruksi Android untuk memasang aplikasi.
+4. Buka StudentHub dan izinkan notifikasi jika ingin menggunakan pengingat.
 
 **Penting:** APK debug bukan rilis stabil. Jika perangkat meminta izin pemasangan dari sumber tersebut, pastikan file berasal dari workflow resmi. Perbedaan tanda tangan APK bisa membuat pembaruan gagal; cadangkan data sebelum menghapus instalasi lama.
 
@@ -90,7 +89,7 @@ StudentHub dapat dicoba melalui website publik. Build Android pengembangan juga 
 <details>
 <summary><b>Kenapa APK belum ada di Releases?</b></summary>
 <br/>
-Distribusi rilis publik masih dipersiapkan. Artifact Actions merupakan hasil build pengembangan dan tidak sama dengan APK rilis resmi.
+APK v0.6.0 sudah tersedia melalui GitHub Releases. File yang dibagikan masih berupa build debug untuk pengujian, bukan build produksi bertanda tangan rilis.
 </details>
 
 <details>
@@ -119,7 +118,7 @@ Saat ini APK ditujukan untuk Android. Pengguna iPhone dapat mencoba versi web me
 - [x] Build APK Android melalui GitHub Actions
 - [x] Fondasi widget dan pengingat Android
 - [ ] Pengujian menyeluruh di berbagai perangkat
-- [ ] APK rilis publik yang mudah diunduh
+- [x] APK pengembangan tersedia langsung di GitHub Releases
 - [ ] Distribusi pembaruan yang lebih praktis
 
 > Fitur dan tampilan dapat berubah selama pengembangan.
